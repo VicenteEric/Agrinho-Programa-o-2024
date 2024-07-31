@@ -1,47 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho - Busca de Empregos Agrícolas</title>
+    <title>LinkeAgro - Empregos Rurais</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Agrinho</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#vagas">Vagas</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-            </ul>
-        </nav>
+        <h1>LinkeAgro</h1>
+        <p>Conectando fazendeiros e candidatos a empregos no setor agrícola.</p>
     </header>
-
-    <section id="home">
-        <h2>Bem-vindo ao Agrinho</h2>
-        <p>Encontre oportunidades de emprego no setor agrícola.</p>
-    </section>
-
-    <section id="vagas">
-        <h2>Vagas Disponíveis</h2>
-        <div class="vaga">
-            <h3>Operador de Trator</h3>
-            <p>Descrição: Operar tratores para atividades agrícolas.</p>
-            <button class="inscrever-btn">Inscrever-se</button>
-        </div>
-        <!-- Mais vagas podem ser adicionadas aqui -->
-    </section>
-
-    <section id="sobre">
-        <h2>Sobre o Agrinho</h2>
-        <p>Agrinho é uma plataforma para conectar fazendeiros e trabalhadores agrícolas.</p>
-    </section>
-
+    <aside class="weather-map">
+        <!-- Mapa meteorológico do Paraná -->
+        <!-- Inclua o mapa ao vivo aqui -->
+    </aside>
+    <main>
+        <section class="job-listings">
+            <!-- Lista de vagas de emprego -->
+            <article class="job">
+                <h2>Vaga de Tratorista</h2>
+                <p>Fazenda São João - Toledo/PR</p>
+                <button class="apply-button">Candidatar-se</button>
+            </article>
+            <!-- Mais vagas aqui -->
+        </section>
+        <section class="agricultural-news">
+            <!-- Notícias recentes do mundo agrícola -->
+            <article class="news">
+                <h2>Novidades na Agricultura</h2>
+                <p>Confira as últimas tendências e tecnologias.</p>
+            </article>
+            <!-- Mais notícias aqui -->
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Agrinho. Todos os direitos reservados.</p>
+        <p>© 2024 LinkeAgro. Todos os direitos reservados.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
