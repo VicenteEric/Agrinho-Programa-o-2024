@@ -1,42 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkeAgro - Empregos Rurais</title>
+    <title>Vagas de Emprego Binkegaro</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>LinkeAgro</h1>
-        <p>Conectando fazendeiros e candidatos a empregos no setor agrícola.</p>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo Binkegaro">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Vagas</a></li>
+                    <li><a href="#">Pesquisar cargos ou empresas</a></li>
+                    <li><a href="#">Estados</a></li>
+                </ul>
+            </nav>
+            <div class="auth-links">
+                <a href="#">Cadastre-se</a>
+                <a href="#">Entrar</a>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
     </header>
-    <aside class="weather-map">
-        <!-- Mapa meteorológico do Paraná -->
-        <!-- Inclua o mapa ao vivo aqui -->
-    </aside>
     <main>
-        <section class="job-listings">
-            <!-- Lista de vagas de emprego -->
-            <article class="job">
-                <h2>Vaga de Tratorista</h2>
-                <p>Fazenda São João - Toledo/PR</p>
-                <button class="apply-button">Candidatar-se</button>
-            </article>
-            <!-- Mais vagas aqui -->
-        </section>
-        <section class="agricultural-news">
-            <!-- Notícias recentes do mundo agrícola -->
-            <article class="news">
-                <h2>Novidades na Agricultura</h2>
-                <p>Confira as últimas tendências e tecnologias.</p>
-            </article>
-            <!-- Mais notícias aqui -->
-        </section>
+        <div class="hero">
+            <img class="background-image" src="images/background.jpg" alt="Imagem de fundo de campo">
+            <div class="hero-text">
+                <h1>Bem-vindo ao Binkegaro</h1>
+                <p>Encontre as melhores vagas de emprego no setor agrícola</p>
+            </div>
+        </div>
     </main>
     <footer>
-        <p>© 2024 LinkeAgro. Todos os direitos reservados.</p>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#">Sobre nós</a>
+                <a href="#">Suporte</a>
+                <a href="#">Contato</a>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
